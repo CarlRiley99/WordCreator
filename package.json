@@ -1,0 +1,19 @@
+{
+  "name": "wordcreator_project",
+  "version": "1.0.0",
+  "description": "A desktop app that helps children make words out of phonetics or letters",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlRiley99/WordCreator.git"
+  },
+  "author": "Carl Riley T. Simpron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlRiley99/WordCreator/issues"
+  },
+  "homepage": "https://github.com/CarlRiley99/WordCreator#readme"
+}
