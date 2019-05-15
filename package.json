@@ -4,7 +4,7 @@
   "description": "A desktop app that helps children make words out of phonetics or letters",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
