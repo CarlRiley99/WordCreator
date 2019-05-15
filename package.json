@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CarlRiley99/WordCreator/issues"
   },
-  "homepage": "https://github.com/CarlRiley99/WordCreator#readme"
+  "homepage": "https://github.com/CarlRiley99/WordCreator#readme",
+  "devDependencies": {
+    "electron": "^5.0.1"
+  }
 }
