@@ -9,7 +9,8 @@
 .dragme {
     width: 80px;
     height: 80px;
-    font-size: 400%;
+    font-size: 300%;
+    border-radius: 25px;
     text-align: center;
     line-height: 80px;   /* Same as height */
     cursor: move;
@@ -26,21 +27,30 @@
   clear: both;
   display: table;
 }
-#draggable {
-    background-color: #ccc;
-    border: 1px solid #000;
-}
 
 #diagraphs {
   background-color: #12DD71;
-  border: 2px solid black;
+  border: 5px solid black;
 }
 
-#BossyR {
-  background-color: #12DD71;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 10px;
+#bossyR {
+  background-color: yellow;
+  border: 5px solid black;
+}
+
+#vowels {
+  background-color: pink;
+  border: 5px solid black;
+}
+
+#dipthongs {
+  background-color: orange;
+  border: 5px solid black;
+}
+
+#other {
+  background-color: red;
+  border: 5px solid black;
 }
 
 #square {
@@ -57,4 +67,14 @@ tr.choices {
   border-collapse: separate;
   border-spacing: 10px;
   *border-collapse: expression('separate', cellSpacing = '10px');
+}
+
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+table.choices {
+  border: 2px solid black;
+  border-collapse: collapse;
 }
