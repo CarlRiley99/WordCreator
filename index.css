@@ -59,11 +59,18 @@
 
 #reset {
   width: 200px;
-  height: 10px;
-  border-radius: 25px;
+  height: 100px;
   background: #F21B0C;
   border: 2px solid black;
-  margin-left: 100px
+  border-radius: 25px;
+  text-align: center;
+  line-height: 100px;   /* Same as height */
+  font-size: 300%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 80px;
 }
 
 /* https://stackoverflow.com/questions/12585461/controlling-spacing-between-table-cells */
