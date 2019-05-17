@@ -20,6 +20,15 @@
 #text {
   font-size: 200%;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  display:inline-block;
+  margin-left: 10px;
+}
+
+#myWord {
+  font-size: 200%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: black;
+  margin-left: 50px;
 }
 
 #diagraphs {
@@ -53,8 +62,7 @@
   background: gray;
   border: 2px solid black;
   display: inline-block;
-  margin-bottom: 50px;
-  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 #alphabet {
@@ -73,8 +81,7 @@
   font-size: 300%;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   display: inline-block;
-  margin-bottom: 50px;
-  margin-top: 20px;
+  margin-bottom: 10px;
   margin-left: 80px;
 }
 
@@ -94,6 +101,7 @@ table.choices {
   border: 2px solid black;
   border-collapse: collapse;
   display: inline-block;
+  margin-bottom: 85px;
 }
 
 table.alphabet {
