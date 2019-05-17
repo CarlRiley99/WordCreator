@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport"
+          content="width=device-width,
+          initial-scale=1.0,
+          user-scalable=no" />
+    <title>Word Creator</title>
+    <style>
+    </style>
+  </head>
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+  <body>
+
+    <div id="outerContainer">
+      <div id="container">
+        <table id="entryBox">
+          <caption id="myWord"><b> My Word </b></caption>
+          <tr>
+            <td id="square" style="margin-left: 350px"></td>
+            <td id="square"></td>
+            <td id="square"></td>
+            <td id="square"></td>
+            <td id="square"></td>
+            <td id="square"></td>
+            <td id="reset" onClick="window.location.reload();"> Reset </td>
+          </tr>
+        </table>
+        <table class="choices">
+          <tr class="choices">
+            <td>
+              <h1 id="text" style="color: #12DD71"><b> Diagraphs </b></h1>
+            </td>
+            <td>
+              <div class="dragme" id="diagraphs" title="sh">sh </div>
+            </td>
+            <td>
+              <div class="dragme" id="diagraphs" title="ch"> ch </div>
+            </td>
+            <td>
+              <div class="dragme" id="diagraphs" title="th"> th </div>
+            </td>
+            <td>
+              <div class="dragme" id="diagraphs" title="wh"> wh </div>
+            </td>
+            <td>
+              <div class="dragme" id="diagraphs" title="ph"> ph </div>
+            </td>
+          </tr>
+          <tr class="choices">
+            <td>
+              <h1 id="text" style="color: #DBDB06"><b> Bossy R </b></h1>
+            </td>
+            <td>
+              <div class="dragme" id="bossyR" title="ar"> ar </div>
+            </td>
+            <td>
+              <div class="dragme" id="bossyR" title="or"> or </div>
+            </td>
+            <td>
+              <div class="dragme" id="bossyR" title="er"> er </div>
+            </td>
+            <td>
+              <div class="dragme" id="bossyR" title="ir"> ir </div>
+            </td>
+            <td>
+              <div class="dragme" id="bossyR" title="ur"> ur </div>
+            </td>
+          </tr>
+          <tr class="choices">
+            <td>
+              <h1 id="text" style="color: #FF60F9"><b> Vowel Teams </b></h1>
+            </td>
+            <td>
+              <div class="dragme" id="vowels" title="ai"> ai </div>
+            </td>
+            <td>
+              <div class="dragme" id="vowels" title="ay"> ay </div>
+            </td>
+            <td>
+              <div class="dragme" id="vowels" title="ee"> ee </div>
+            </td>
+            <td>
+              <div class="dragme" id="vowels" title="ea"> ea </div>
+            </td>
+            <td>
+              <div class="dragme" id="vowels" title="oa"> oa </div>
+            </td>
+          </tr>
+          <tr class="choices">
+            <td>
+              <h1 id="text" style="color: #FF60F9"><b> Vowel Teams </b></h1>
+            </td>
+            <td>
+              <div class="dragme" id="vowels" title="ow1"> ow </div>
+            </td>
+            <td>
+              <div class="dragme" id="vowels" title="igh"> igh </div>
+            </td>
+            <td>
+              <div class="dragme" id="vowels" title="ie"> ie </div>
+            </td>
+            <td>
+              <div class="dragme" id="vowels" title="oo"> oo </div>
+            </td>
+          </tr>
+          <tr class="choices">
+            <td>
+              <h1 id="text" style="color: orange"><b> Dipthongs </b></h1>
+            </td>
+            <td>
+              <div class="dragme" id="dipthongs" title="oi"> oi </div>
+            </td>
+            <td>
+              <div class="dragme" id="dipthongs" title="oy"> oy </div>
+            </td>
+            <td>
+              <div class="dragme" id="dipthongs" title="ow2"> ow </div>
+            </td>
+            <td>
+              <div class="dragme" id="dipthongs" title="ou"> ou </div>
+            </td>
+          </tr>
+          <tr class="choices">
+            <td>
+              <h1 id="text" style="color: red"><b> Others </b></h1>
+            </td>
+            <td>
+              <div class="dragme" id="other" title="ing"> ing </div>
+            </td>
+            <td>
+              <div class="dragme" id="other" title="ed"> ed </div>
+            </td>
+          </tr>
+        </table>
+        <table class="alphabet">
+          <caption>
+            <h1 id="text" style="color: #8470FF"> Consonants </h1>
+            <h1 id="text" style="color: black"> and </h1>
+            <h1 id="text" style="color: #EA2064"> Vowels </h1>
+          </caption>
+          <tr>
+          </tr>
+          <tr class="choices">
+            <td>
+              <div class="dragme" id="alphabet" title="a" style="background-color: #EA2064"> a </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="b"> b </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="c"> c </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="d"> d </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="e" style="background-color: #EA2064"> e </div>
+            </td>
+          </tr>
+          <tr class="choices">
+            <td>
+              <div class="dragme" id="alphabet" title="f"> f </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="g"> g </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="h"> h </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="i" style="background-color: #EA2064"> i </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="j"> j </div>
+            </td>
+          </tr>
+          <tr class="choices">
+            <td>
+              <div class="dragme" id="alphabet" title="k"> k </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="l"> l </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="m"> m </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="n"> n </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="o" style="background-color: #EA2064"> o </div>
+            </td>
+          </tr>
+          <tr class="choices">
+            <td>
+              <div class="dragme" id="alphabet" title="p"> p </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="q"> q </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="r"> r </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="s"> s </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="t"> t </div>
+            </td>
+          </tr>
+          <tr class="choices">
+            <td>
+              <div class="dragme" id="alphabet" title="u" style="background-color: #EA2064"> u </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="v"> v </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="w"> w </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="x"> x </div>
+            </td>
+            <td>
+              <div class="dragme" id="alphabet" title="y"> y </div>
+            </td>
+          </tr>
+          <tr class="choices">
+            <td>
+              <div class="dragme" id="alphabet" title="z"> z </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+
+</html>

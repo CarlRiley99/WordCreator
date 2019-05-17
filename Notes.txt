@@ -8,6 +8,8 @@ Touch events documentation: https://developer.mozilla.org/en-US/docs/Web/API/Tou
 Document.querySelectorAll() documentation: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
 Event.preventDefault() documentation: https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
 Packaging the App: https://www.youtube.com/watch?v=rP7j_hDL40Y
+Electron-packager documentation: https://github.com/electron-userland/electron-packager
+What to do if electron-packager is not recognized: https://stackoverflow.com/questions/45097871/electron-packager-is-not-recognized-as-an-internal-or-external-command
 
 How to start project:
 1.) Navigate to project folder in command line

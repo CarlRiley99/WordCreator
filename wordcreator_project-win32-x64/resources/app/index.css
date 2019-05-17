@@ -1,0 +1,103 @@
+.dragme {
+    width: 80px;
+    height: 80px;
+    font-size: 300%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 80px;   /* Same as height */
+    cursor: move;
+}
+
+#text {
+  font-size: 200%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  display:inline-block;
+  margin-left: 10px;
+}
+
+#myWord {
+  font-size: 200%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: black;
+  margin-left: 50px;
+}
+
+#diagraphs {
+  background-color: #12DD71;
+  border: 5px solid black;
+}
+
+#bossyR {
+  background-color: yellow;
+  border: 5px solid black;
+}
+
+#vowels {
+  background-color: #FF60F9;
+  border: 5px solid black;
+}
+
+#dipthongs {
+  background-color: orange;
+  border: 5px solid black;
+}
+
+#other {
+  background-color: red;
+  border: 5px solid black;
+}
+
+#square {
+  width: 100px;
+  height: 100px;
+  background: gray;
+  border: 2px solid black;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#alphabet {
+  background-color: #8470FF;
+  border: 5px solid black;
+}
+
+#reset {
+  width: 200px;
+  height: 100px;
+  background: #F21B0C;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 100px;   /* Same as height */
+  font-size: 300%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+
+tr.choices {
+  border-collapse: separate;
+  border-spacing: 10px;
+  *border-collapse: expression('separate', cellSpacing = '10px');
+}
+
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+table.choices {
+  border: 2px solid black;
+  border-collapse: collapse;
+  display: inline-block;
+  margin-bottom: 85px;
+}
+
+table.alphabet {
+  border: 2px solid black;
+  border-collapse: collapse;
+  display: inline-block;
+  margin-left: 90px;
+}
