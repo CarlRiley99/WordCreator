@@ -1,5 +1,14 @@
-How to setup project: https://www.youtube.com/watch?v=mr9Mtm_TRpw
+How to setup project using ElectronJS: https://www.youtube.com/watch?v=mr9Mtm_TRpw
+ElectronJS Documentation: https://electronjs.org/docs
+Spacing Between table cells: https://stackoverflow.com/questions/12585461/controlling-spacing-between-table-cells
+How to create a draggable object in Javascript: https://www.kirupa.com/html5/drag.htm
+Draggable API: https://github.com/Shopify/draggable *I DID NOT END UP USING THIS API*
+HTML tables reference: https://www.w3schools.com/html/html_tables.asp
+Touch events documentation: https://developer.mozilla.org/en-US/docs/Web/API/TouchEvent/touches
+Document.querySelectorAll() documentation: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+Event.preventDefault() documentation: https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
+Packaging the App: https://www.youtube.com/watch?v=rP7j_hDL40Y
 
 How to start project:
-1.) Navigate to project folder
+1.) Navigate to project folder in command line
 2.) type "npm start" to start up app
