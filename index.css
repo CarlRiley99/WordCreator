@@ -17,6 +17,11 @@
     cursor: move;
 }
 
+#text {
+  font-size: 200%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
 #diagraphs {
   background-color: #12DD71;
   border: 5px solid black;
@@ -95,6 +100,5 @@ table.alphabet {
   border: 2px solid black;
   border-collapse: collapse;
   display: inline-block;
-  margin-left: 100px;
-  margin-bottom: 100px;
+  margin-left: 90px;
 }
