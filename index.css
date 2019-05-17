@@ -10,22 +10,11 @@
     width: 80px;
     height: 80px;
     font-size: 300%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     border-radius: 25px;
     text-align: center;
     line-height: 80px;   /* Same as height */
     cursor: move;
-}
-
-.column {
-  float: left;
-  width: 10px
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 #diagraphs {
@@ -39,7 +28,7 @@
 }
 
 #vowels {
-  background-color: pink;
+  background-color: #FF60F9;
   border: 5px solid black;
 }
 
@@ -59,7 +48,22 @@
   background: gray;
   border: 2px solid black;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+#alphabet {
+  background-color: #8470FF;
+  border: 5px solid black;
+}
+
+#reset {
+  width: 200px;
+  height: 10px;
+  border-radius: 25px;
+  background: #F21B0C;
+  border: 2px solid black;
+  margin-left: 100px
 }
 
 /* https://stackoverflow.com/questions/12585461/controlling-spacing-between-table-cells */
@@ -77,4 +81,13 @@ td {
 table.choices {
   border: 2px solid black;
   border-collapse: collapse;
+  display: inline-block;
+}
+
+table.alphabet {
+  border: 2px solid black;
+  border-collapse: collapse;
+  display: inline-block;
+  margin-left: 100px;
+  margin-bottom: 100px;
 }
